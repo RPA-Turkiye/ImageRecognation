@@ -14,4 +14,4 @@ Training
 <hr>
 Check Model
 <br>
-<code> python label_image.py --graph=C:\Users\emre_\OneDrive\Masaüstü\ImageRecognation\output\inception_v3\output_graph.pb --labels=C:\Users\emre_\OneDrive\Masaüstü\ImageRecognation\output\inception_v3\inception_v3_labels.txt --input_layer=Placeholder --output_layer=final_result --image=C:\Users\emre_\OneDrive\Masaüstü\ImageRecognation\test_data\F_test.jpg</code>
+<code> python label_image.py --graph=your_graph_path --labels=your_label_path --input_layer=Placeholder --output_layer=final_result --image=your_test_image</code>
